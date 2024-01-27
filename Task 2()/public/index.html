@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nove Tilo Fitnes Klub</title>
+
+  <!-- Стилі для Головної сторінки -->
+  <style>
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background-color: #001f3f;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav {
+      width: 60%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: rgba(0, 123, 255, 0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: rgba(0, 123, 255, 0.4);
+    }
+
+    section {
+      float: none;
+      width: 80%;
+      padding: 20px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      color: #001f3f;
+    }
+
+    section p {
+      margin-bottom: 15px;
+    }
+
+    section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    section img:hover {
+      transform: scale(1.05);
+    }
+
+    section ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    section li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      clear: both;
+      text-align: center;
+    }
+  </style>
+
+  <!-- Стилі для Про Нас сторінки -->
+  <style>
+     body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #001f3f;
+        color: #fff;
+    }
+
+    header, footer {
+        background-color: #001f3f;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: rgba(0, 123, 255, 0.2);
+        transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+        background-color: rgba(0, 123, 255, 0.4);
+    }
+
+    section {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        color: #001f3f;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+
+    .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .team-member {
+        position: relative;
+        margin: 15px;
+        text-align: center;
+        width: 45%;
+    }
+
+    .team-member img {
+        border-radius: 50%;
+        width: 80%;
+        height: auto;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .team-member:hover img {
+        transform: scale(1.1);
+    }
+
+    .team-member .text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    .team-member:hover .text {
+        opacity: 1;
+    }
+
+    footer {
+        background-color: #001f3f;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+  </style>
+
+  <!-- Стилі для Цінових Планів та Акцій сторінки -->
+  <style>
+   body {
+        background-color: #f4f4f4;
+        color: #333;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header, footer {
+        background-color: #001f3f;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: rgba(0, 123, 255, 0.2);
+        transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+        background-color: rgba(0, 123, 255, 0.4);
+    }
+
+    section {
+        float: none;
+        width: 80%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    section h2 {
+        color: #001f3f;
+    }
+
+    section p {
+        margin-bottom: 15px;
+    }
+
+    .price-plans {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .price-plan {
+        width: 30%;
+        padding: 15px;
+        border: 2px solid #001f3f;
+        border-radius: 5px;
+        color: #fff;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .price-plan:hover {
+        transform: scale(1.05);
+    }
+
+    .price-plan:nth-child(1), .price-plan:nth-child(3) {
+        background-color: #fff;
+        border: 2px solid #001f3f;
+        color: #001f3f;
+    }
+
+    .price-plan:nth-child(2) {
+        background-color: #001f3f;
+        border: none;
+    }
+
+    .price {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .plan-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    section ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+    section li {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        clear: both;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
+
