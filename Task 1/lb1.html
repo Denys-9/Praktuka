@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nove Tilo Fitnes Klub</title>
+    <style>
+        body {
+            background-color: #f4f4f4; /* Світло-сірий колір фону */
+            color: #333; /* Темно-сірий колір тексту */
+            font-family: Arial, sans-serif; /* Шрифт тексту */
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #001f3f; /* Темно-синій колір фону */
+            color: #fff; /* Білий колір тексту */
+            padding: 10px;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: rgba(0, 123, 255, 0.2); /* Непрозорий фон */
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(0, 123, 255, 0.4); /* Збільшуємо прозорість при наведенні */
+        }
+
+        section {
+            float: none;
+            width: 80%;
+            padding: 20px;
+            margin: 0 auto; /* Центрування вмісту */
+        }
+
+        section h2 {
+            color: #001f3f; /* Темно-синій колір тексту для заголовків секції */
+        }
+
+        section p {
+            margin-bottom: 15px;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section img:hover {
+            transform: scale(1.05);
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        section li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            clear: both;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nove Tilo Fitnes Klub</h1>
+        <nav>
+            <ul>
+                <li><a href="lb1.html">Головна Сторінка</a></li>
+                <li><a href="index1.html">Про Нас</a></li>
+                <li><a href="index2.html">Цінові Плани та Акції</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Привітання та Запрошення</h2>
+        <p>Ласкаво просимо в Nove Tilo Fitnes Klub! Запрошуємо вас в наш фітнес-зал, де ви зможете досягти своїх фітнес-цілей та покращити своє здоров'я.</p>
+
+        <h2>Зоны Тренувань</h2>
+        <div style="text-align: center;">
+            <h3>Кардіо Зона</h3>
+            <p>Зона для кардіо тренувань призначена для поліпшення витривалості та здоров'я серця. Тут ви знайдете бігові доріжки, велотренажери та інші кардіо-обладнання.</p>
+            <img src="cardio.jpg" alt="Cardio Zone">
+        </div>
+
+        <div style="text-align: center;">
+            <h3>Силова Зона</h3>
+            <p>Для тих, хто хоче підняти ваги та зміцнити м'язи, у нас є силова зона з широким асортиментом вагових тренажерів та гантелей.</p>
+            <img src="strength.jpg" alt="Strength Zone">
+        </div>
+
+        <div style="text-align: center;">
+            <h3>Групові Заняття</h3>
+            <p>Приєднуйтесь до наших групових занять, де ви зможете тренуватися під керівництвом професійних інструкторів та здобувати нові навички.</p>
+            <img src="group.jpg" alt="Group Classes">
+        </div>
+        
+        <h2 id="schedule">Розклад Роботи</h2>
+        <ul>
+            <li><strong>Понеділок:</strong></li>
+            <ul>
+                <li>⏰ 12:00 - SUPER SCULPT</li>
+                <li>⏰ 13:00 - STRETCHING</li>
+                <li>⏰ 18:30 - BUMS + ABS</li>
+            </ul>
+            <li><strong>Вівторок:</strong></li>
+            <ul>
+                <li>⏰ 12:00 - LEGS & BUTTS</li>
+                <li>⏰ 13:00 - AQUA STRONG</li>
+                <li>⏰ 13:00 - TRI YOGA</li>
+            </ul>
+            <li><strong>Середа:</strong></li>
+            <ul>
+                <li>⏰ 12:00 - FUNCTIONAL</li>
+                <li>⏰ 18:30 - TABATA</li>
+            </ul>
+            <li><strong>Четвер:</strong></li>
+            <ul>
+                <li>⏰ 12:00 - LEGS & BUTTS</li>
+                <li>⏰ 13:00 - AQUA STRONG</li>
+                <li>⏰ 13:00 - TRI YOGA</li>
+            </ul>
+            <li><strong>П’ятниця:</strong></li>
+            <ul>
+                <li>⏰ 12:00 - SUPER SCULPT</li>
+                <li>⏰ 15:00 - AQUA STRONG</li>
+            </ul>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Долучайтесь до нас:</p>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a> |
+        <a href="mailto:info@example.com">Електронна пошта</a> |
+        Телефон: +123456789
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+

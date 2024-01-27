@@ -1,0 +1,80 @@
+/* index.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #3498db;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .header h1 {
+    color: #ecf0f1;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .color-palette {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Збільшено розміри кругів на 5 разів */
+  .color-button {
+    width: 300px;
+    height: 300px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .color-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Змінено фоновий колір для кожного кольору палітри */
+  .color-button:nth-child(1) { background-color: #3498db; }
+  .color-button:nth-child(2) { background-color: #2ecc71; }
+  .color-button:nth-child(3) { background-color: #e74c3c; }
+  .color-button:nth-child(4) { background-color: #9b59b6; }
+  .color-button:nth-child(5) { background-color: #2c3e50; }
+  .color-button:nth-child(6) { background-color: #f39c12; }
+  .color-button:nth-child(7) { background-color: #d35400; }
+  .color-button:nth-child(8) { background-color: #c0392b; }
+  .color-button:nth-child(9) { background-color: #7f8c8d; }
+  /* Додано ще 10 кольорів */
+  .color-button:nth-child(10) { background-color: #27ae60; }
+  .color-button:nth-child(11) { background-color: #2980b9; }
+  .color-button:nth-child(12) { background-color: #8e44ad; }
+  .color-button:nth-child(13) { background-color: #16a085; }
+  .color-button:nth-child(14) { background-color: #f1c40f; }
+  .color-button:nth-child(15) { background-color: #e67e22; }
+  .color-button:nth-child(16) { background-color: #bdc3c7; }
+  .color-button:nth-child(17) { background-color: #e84393; }
+  .color-button:nth-child(18) { background-color: #95a5a6; }
+  .color-button:nth-child(19) { background-color: #fd79a8; }
+  
+  .footer {
+    background-color: #2c3e50;
+    padding: 10px;
+    color: #ecf0f1;
+    border-radius: 10px;
+  }
+  

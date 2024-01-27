@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nove Tilo Fitnes Klub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #001f3f;
+            color: #000;
+        }
+
+            header, footer {
+            background-color: #001f3f; /* Темно-синій колір фону */
+            color: #fff; /* Білий колір тексту */
+            padding: 10px;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: rgba(0, 123, 255, 0.2); /* Непрозорий фон */
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(0, 123, 255, 0.4); /* Збільшуємо прозорість при наведенні */
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #001f3f;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .team-member {
+            position: relative;
+            margin: 15px;
+            text-align: center;
+            width: 45%; /* Змініть ширину за необхідністю */
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 80%; /* Змініть розмір за необхідністю */
+            height: auto;
+            object-fit: cover;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .team-member:hover img {
+            transform: scale(1.1);
+        }
+
+        .team-member .text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .team-member:hover .text {
+            opacity: 1;
+        }
+
+        footer {
+            background-color: #001f3f;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nove Tilo Fitnes Klub</h1>
+        <nav>
+            <ul>
+                <li><a href="lb1.html">Головна Сторінка</a></li>
+                <li><a href="index1.html">Про Нас</a></li>
+                <li><a href="#index2.html">Розклад Роботи</a></li>
+                <li><a href="index2.html">Цінові Плани та Акції</a></li>
+            </ul>
+        </nav>
+    </header>
+ <h2 class="team-heading">Наша Команда</h2>
+    <section id="gym">
+        <h2>Тренажерний зал</h2>
+        <p>Ваш особистий тренер – запорука успіху. Багато початківців, завітавши до фітнес-клубу вперше, помилково вважають, що достатньо частих та активних тренувань, аби досягти результатів. На жаль, це не так. Запорукою успіху являються зовсім не виснажливі тренування, а грамотний до них підхід.</p>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="marina_kobets.jpg" alt="Team Member 1">
+                <div class="text">МАРИНА КОБЕЦЬ</div>
+            </div>
+            <div class="team-member">
+                <img src="dmitro_nikolaevich.jpg" alt="Team Member 2">
+                <div class="text">ДМИТРО НІКОЛАЄВІЧ</div>
+            </div>
+            <div class="team-member">
+                <img src="olga_vertegel.jpg" alt="Team Member 3">
+                <div class="text">ОЛЬГА ВЕРТЕГЕЛ</div>
+            </div>
+            <div class="team-member">
+                <img src="bogdan_baranetsky.jpg" alt="Team Member 4">
+                <div class="text">БОГДАН БАРАНЕЦЬКИЙ</div>
+            </div>
+            <!-- Додайте інші командирувати тут -->
+        </div>
+    </section>
+
+    <section id="group-programs">
+        <h2>Групові програми</h2>
+        <p>Наші фітнес-тренери – висококваліфіковані спеціалісти з великим досвідом. Кожен з них має безліч спортивних досягнень, про які свідчать незліченні нагороди. Всі тренери мають свою вузьку спеціалізацію, з якою справляються на «відмінно».</p>
+        <div class="team-members">
+        <div class="team-members">
+            <div class="team-member">
+                <img src="miroshnichenko_inesa.jpg" alt="Team Member 5">
+                <div class="text">МИРОШНІЧЕНКО ІНЕСА</div>
+            </div>
+            <div class="team-member">
+                <img src="karina_hachatryan.jpg" alt="Team Member 6">
+                <div class="text">КАРІНА ХАЧАТРЯН</div>
+            </div>
+            <div class="team-member">
+                <img src="karina-ha.jpg" alt="Team Member 7">
+                <div class="text">ОЛЬГА БЛОХІНА</div>
+            </div>
+            <div class="team-member">
+                <img src="mike_polukarov.jpg" alt="Team Member 8">
+                <div class="text">МАЙК ПОЛУКАРОВ</div>
+            </div>
+            <!-- Додайте інші командирувати тут -->
+        </div>
+    </section>
+
+    <footer>
+        © 2024 Nove Tilo Fitnes Klub. Усі права захищено.
+    </footer>
+</body>
+</html>
+

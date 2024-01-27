@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nove Tilo Fitnes Klub</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #001f3f;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: rgba(0, 123, 255, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(0, 123, 255, 0.4);
+        }
+
+        section {
+            float: none;
+            width: 80%;
+            padding: 20px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            color: #001f3f;
+        }
+
+        section p {
+            margin-bottom: 15px;
+        }
+
+        .price-plans {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .price-plan {
+            width: 30%;
+            padding: 15px;
+            border: 2px solid #001f3f;
+            border-radius: 5px;
+            color: #fff;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .price-plan:hover {
+            transform: scale(1.05);
+        }
+
+        .price-plan:nth-child(1), .price-plan:nth-child(3) {
+            background-color: #fff;
+            border: 2px solid #001f3f;
+            color: #001f3f;
+        }
+
+        .price-plan:nth-child(2) {
+            background-color: #001f3f;
+            border: none;
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .plan-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+
+        section li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            clear: both;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nove Tilo Fitnes Klub</h1>
+        <nav>
+            <ul>
+                <li><a href="lb1.html">Головна Сторінка</a></li>
+                <li><a href="index1.html">Про Нас</a></li>
+                <li><a href="#pricing">Цінові Плани та Акції</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="pricing">
+        <h2>Цінові Плани та Акції</h2>
+
+        <div class="price-plans">
+            <div class="price-plan">
+                <div class="price">$100</div>
+                <div class="plan-title">SPORT</div>
+                <ul>
+                    <li>✓ Тренажерний зал</li>
+                    <li>✓ Групові тренування</li>
+                    <li>✓ Роздягальня</li>
+                </ul>
+            </div>
+
+            <div class="price-plan">
+                <div class="price">$199</div>
+                <div class="plan-title">SPORT-POOL</div>
+                <ul>
+                    <li>✓ Басейн</li>
+                    <li>✓ Тренажерний зал</li>
+                    <li>✓ Групові тренування</li>
+                    <li>✓ Роздягальня</li>
+                </ul>
+            </div>
+
+            <div class="price-plan">
+                <div class="price">$249</div>
+                <div class="plan-title">LUX&SPA</div>
+                <ul>
+                    <li>✓ Басейн</li>
+                    <li>✓ Тренажерний зал</li>
+                    <li>✓ Premium тренажерний зал</li>
+                    <li>✓ Групові заняття</li>
+                    <li>✓ Premium групові заняття</li>
+                    <li>✓ Лазневий комплекс</li>
+                    <li>✓ Заморозка 30 днів</li>
+                    <li>✓ Комплект рушників</li>
+                    <li>✓ Premium роздягальня</li>
+                    <li>✓ Халат в Lux клубах</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2024 Nove Tilo Fitnes Klub. Всі права захищені.
+    </footer>
+</body>
+</html>
